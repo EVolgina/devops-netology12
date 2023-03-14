@@ -88,8 +88,8 @@ root@vagrant:~# echo $?
 root@vagrant:~# gzip -t /tmp/new/test.gz
 root@vagrant:~# echo $?
 0
-![lsblk33]()
+![lsblk33](https://github.com/EVolgina/devops-netology12/blob/main/zd19.PNG)
 # 20. Погасите тестовый хост — vagrant destroy.
 6 mdadm --create --verbose /dev/md1 -l 1 -n 2 /dev/sd{b1,c1}
-7 mdadm --create --verbose /dev/md2 -l 0 -n 2 /dev/sd{b2,c2}:
-![lsblk32]()
+7 mdadm --create --verbose /dev/md2 -l 0 -n 2 /dev/sd{b2,c2}:\
+vagrant destroy
