@@ -59,8 +59,9 @@ end\
 ![pv](https://github.com/EVolgina/devops-netology12/blob/main/zd9.PNG)
 ![pv1](https://github.com/EVolgina/devops-netology12/blob/main/zd91.PNG)
 # 10.Создайте LV размером 100 Мб, указав его расположение на PV с RAID0.
+При помощи lvcreate создаем и проверяем что получилось
 ![pv2](https://github.com/EVolgina/devops-netology12/blob/main/zd10.PNG)
-![pv3]()
+![pv3](https://github.com/EVolgina/devops-netology12/blob/main/zd101.PNG)
 # 11.Создайте mkfs.ext4 ФС на получившемся LV.
 ![pv3]()
 # 12.Смонтируйте этот раздел в любую директорию, например, /tmp/new.
