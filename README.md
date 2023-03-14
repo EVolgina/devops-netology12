@@ -66,9 +66,9 @@ end\
 Создаем и проверяем
 ![pv4](https://github.com/EVolgina/devops-netology12/blob/main/zd11.PNG)
 # 12.Смонтируйте этот раздел в любую директорию, например, /tmp/new.
-
+![pv5](https://github.com/EVolgina/devops-netology12/blob/main/zd12.PNG)
 # 13.Поместите туда тестовый файл, например, wget https://mirror.yandex.ru/ubuntu/ls-lR.gz -O /tmp/new/test.gz.
-
+![pv6]()
 # 14.Прикрепите вывод lsblk.
 
 Протестируйте целостность файла:
