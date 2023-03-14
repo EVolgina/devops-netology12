@@ -79,7 +79,7 @@ root@vagrant:~# echo $?
 0
 ![lsblk1](https://github.com/EVolgina/devops-netology12/blob/main/zd15.PNG)
 # 16.Используя pvmove, переместите содержимое PV с RAID0 на RAID1.
-![lsblk2]()
+![lsblk2](https://github.com/EVolgina/devops-netology12/blob/main/zd16.PNG)
 # 17.Сделайте --fail на устройство в вашем RAID1 md.
 ![lsblk3]()
 # 18.Подтвердите выводом dmesg, что RAID1 работает в деградированном состоянии.
