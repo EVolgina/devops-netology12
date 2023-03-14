@@ -50,7 +50,10 @@ end\
 ![raid0](https://github.com/EVolgina/devops-netology12/blob/main/zad7.PNG)
 ![cat](https://github.com/EVolgina/devops-netology12/blob/main/7%20cat.PNG)
 # 8.Создайте два независимых PV на получившихся md-устройствах.
-![raid1](https://github.com/EVolgina/devops-netology12/blob/main/zad8.PNG)
+Проверим физические тома LVM командой pvscan\
+Инициализируем тома для работы LVM командой pvcreate\
+Снова проверяем pvscan
+![raid1](https://github.com/EVolgina/devops-netology12/blob/main/zd8.PNG)
 # 9.Создайте общую volume-group на этих двух PV.
 ![raid1]()
 # 10.Создайте LV размером 100 Мб, указав его расположение на PV с RAID0.
