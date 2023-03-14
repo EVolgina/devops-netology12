@@ -63,7 +63,8 @@ end\
 ![pv2](https://github.com/EVolgina/devops-netology12/blob/main/zd10.PNG)
 ![pv3](https://github.com/EVolgina/devops-netology12/blob/main/zd101.PNG)
 # 11.Создайте mkfs.ext4 ФС на получившемся LV.
-![pv3]()
+Создаем и проверяем
+![pv4](https://github.com/EVolgina/devops-netology12/blob/main/zd11.PNG)
 # 12.Смонтируйте этот раздел в любую директорию, например, /tmp/new.
 
 # 13.Поместите туда тестовый файл, например, wget https://mirror.yandex.ru/ubuntu/ls-lR.gz -O /tmp/new/test.gz.
