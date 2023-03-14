@@ -41,7 +41,7 @@ end
 ![]()
 
 # 5. Используя sfdisk, перенесите эту таблицу разделов на второй диск.
-![sfdisk]()
+![sfdisk](https://github.com/EVolgina/devops-netology12/blob/main/zad5.PNG)
 # 6. Соберите mdadm RAID1 на паре разделов 2 Гб.
 
 
