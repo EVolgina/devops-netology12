@@ -72,16 +72,16 @@ end\
 # 13.Поместите туда тестовый файл, например, wget https://mirror.yandex.ru/ubuntu/ls-lR.gz -O /tmp/new/test.gz.
 ![pv6]()
 # 14.Прикрепите вывод lsblk.
-
+![lsblk](https://github.com/EVolgina/devops-netology12/blob/main/zd14.PNG)
 Протестируйте целостность файла:
-
 root@vagrant:~# gzip -t /tmp/new/test.gz
 root@vagrant:~# echo $?
 0
+![lsblk1]()
 Используя pvmove, переместите содержимое PV с RAID0 на RAID1.
-
+![lsblk2]()
 Сделайте --fail на устройство в вашем RAID1 md.
-
+![lsblk3]()
 Подтвердите выводом dmesg, что RAID1 работает в деградированном состоянии.
 
 Протестируйте целостность файла — он должен быть доступен несмотря на «сбойный» диск:
