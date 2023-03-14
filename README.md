@@ -81,7 +81,7 @@ root@vagrant:~# echo $?
 # 16.Используя pvmove, переместите содержимое PV с RAID0 на RAID1.
 ![lsblk2](https://github.com/EVolgina/devops-netology12/blob/main/zd16.PNG)
 # 17.Сделайте --fail на устройство в вашем RAID1 md.
-![lsblk3]()
+![lsblk3](https://github.com/EVolgina/devops-netology12/blob/main/zd17.PNG)
 # 18.Подтвердите выводом dmesg, что RAID1 работает в деградированном состоянии.
 ![lsblk31]()
 # 19.Протестируйте целостность файла — он должен быть доступен несмотря на «сбойный» диск:
