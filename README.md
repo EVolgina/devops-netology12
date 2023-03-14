@@ -48,8 +48,9 @@ end\
 ![raid1](https://github.com/EVolgina/devops-netology12/blob/main/zad6.PNG)
 # 7.Соберите mdadm RAID0 на второй паре маленьких разделов.
 ![raid0](https://github.com/EVolgina/devops-netology12/blob/main/zad7.PNG)
+![cat]()
 # 8.Создайте два независимых PV на получившихся md-устройствах.
-![raid1]()
+![raid1](https://github.com/EVolgina/devops-netology12/blob/main/zad8.PNG)
 # 9.Создайте общую volume-group на этих двух PV.
 ![raid1]()
 # 10.Создайте LV размером 100 Мб, указав его расположение на PV с RAID0.
