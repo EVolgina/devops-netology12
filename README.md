@@ -48,20 +48,20 @@ end\
 ![raid1](https://github.com/EVolgina/devops-netology12/blob/main/zad6.PNG)
 # 7.Соберите mdadm RAID0 на второй паре маленьких разделов.
 ![raid0](https://github.com/EVolgina/devops-netology12/blob/main/zad7.PNG)
-![cat]()
+![cat](https://github.com/EVolgina/devops-netology12/blob/main/7%20cat.PNG)
 # 8.Создайте два независимых PV на получившихся md-устройствах.
 ![raid1](https://github.com/EVolgina/devops-netology12/blob/main/zad8.PNG)
 # 9.Создайте общую volume-group на этих двух PV.
 ![raid1]()
 # 10.Создайте LV размером 100 Мб, указав его расположение на PV с RAID0.
 
-Создайте mkfs.ext4 ФС на получившемся LV.
+# 11.Создайте mkfs.ext4 ФС на получившемся LV.
 
-Смонтируйте этот раздел в любую директорию, например, /tmp/new.
+# 12.Смонтируйте этот раздел в любую директорию, например, /tmp/new.
 
-Поместите туда тестовый файл, например, wget https://mirror.yandex.ru/ubuntu/ls-lR.gz -O /tmp/new/test.gz.
+# 13.Поместите туда тестовый файл, например, wget https://mirror.yandex.ru/ubuntu/ls-lR.gz -O /tmp/new/test.gz.
 
-Прикрепите вывод lsblk.
+# 14.Прикрепите вывод lsblk.
 
 Протестируйте целостность файла:
 
