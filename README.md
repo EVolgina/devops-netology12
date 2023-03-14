@@ -29,7 +29,8 @@ Vagrant.configure("2") do |config|
             unless File.exist?(file_to_disk)
                 v.customize ['createmedium', '--filename', file_to_disk, '--size', host_params['disk_size']]
             end
-            v.customize ['storageattach', :id, '--storagectl', 'SATA Controller', '--port', disk.to_s, '--device', 0, '--type', 'hdd', '--medium', file_to_disk]
+            v.customize ['storageattach', :id, '--storagectl', 'SATA Controller', '--port', disk.to_s, '--device',
+            0, '--type', 'hdd', '--medium', file_to_disk]
         end
     end
     config.vm.network "private_network", type: "dhcp"
@@ -38,15 +39,14 @@ end
 
 # 4. Используя fdisk, разбейте первый диск на два раздела: 2 Гб и оставшееся пространство.
 ![fdisk](https://github.com/EVolgina/devops-netology12/blob/main/fdisk.PNG)
-![]()
+![fdisk1](https://github.com/EVolgina/devops-netology12/blob/main/fdisk1.PNG)
 
 # 5. Используя sfdisk, перенесите эту таблицу разделов на второй диск.
 ![sfdisk](https://github.com/EVolgina/devops-netology12/blob/main/zad5.PNG)
 # 6. Соберите mdadm RAID1 на паре разделов 2 Гб.
-
-
-# 7.Соберите mdadm RAID0 на второй паре маленьких разделов.
 ![raid1]()
+# 7.Соберите mdadm RAID0 на второй паре маленьких разделов.
+![raid0]()
 # 8.Создайте два независимых PV на получившихся md-устройствах.
 ![raid1]()
 # 9.Создайте общую volume-group на этих двух PV.
