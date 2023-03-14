@@ -77,7 +77,7 @@ end\
 root@vagrant:~# gzip -t /tmp/new/test.gz
 root@vagrant:~# echo $?
 0
-![lsblk1]()
+![lsblk1](https://github.com/EVolgina/devops-netology12/blob/main/zd15.PNG)
 # 16.Используя pvmove, переместите содержимое PV с RAID0 на RAID1.
 ![lsblk2]()
 # 17.Сделайте --fail на устройство в вашем RAID1 md.
