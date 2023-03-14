@@ -55,8 +55,9 @@ end\
 Снова проверяем pvscan
 ![raid1](https://github.com/EVolgina/devops-netology12/blob/main/zd8.PNG)
 # 9.Создайте общую volume-group на этих двух PV.
+Физические разделы уже сделаны, делаем из них группу томов и проверяем что получилось
 ![pv](https://github.com/EVolgina/devops-netology12/blob/main/zd9.PNG)
-![pv1]()
+![pv1](https://github.com/EVolgina/devops-netology12/blob/main/zd91.PNG)
 # 10.Создайте LV размером 100 Мб, указав его расположение на PV с RAID0.
 ![pv2]()
 # 11.Создайте mkfs.ext4 ФС на получившемся LV.
