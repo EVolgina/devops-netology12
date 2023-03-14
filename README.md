@@ -55,11 +55,12 @@ end\
 Снова проверяем pvscan
 ![raid1](https://github.com/EVolgina/devops-netology12/blob/main/zd8.PNG)
 # 9.Создайте общую volume-group на этих двух PV.
-![raid1]()
+![pv](https://github.com/EVolgina/devops-netology12/blob/main/zd9.PNG)
+![pv1]()
 # 10.Создайте LV размером 100 Мб, указав его расположение на PV с RAID0.
-
+![pv2]()
 # 11.Создайте mkfs.ext4 ФС на получившемся LV.
-
+![pv3]()
 # 12.Смонтируйте этот раздел в любую директорию, например, /tmp/new.
 
 # 13.Поместите туда тестовый файл, например, wget https://mirror.yandex.ru/ubuntu/ls-lR.gz -O /tmp/new/test.gz.
