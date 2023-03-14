@@ -35,7 +35,7 @@ Vagrant.configure("2") do |config|
         end
     end
     config.vm.network "private_network", type: "dhcp"
-end
+end\
 Эта конфигурация создаст новую виртуальную машину с двумя дополнительными неразмеченными дисками по 2,5 Гб.
 
 # 4. Используя fdisk, разбейте первый диск на два раздела: 2 Гб и оставшееся пространство.
@@ -47,7 +47,7 @@ end
 # 6. Соберите mdadm RAID1 на паре разделов 2 Гб.
 ![raid1](https://github.com/EVolgina/devops-netology12/blob/main/zad6.PNG)
 # 7.Соберите mdadm RAID0 на второй паре маленьких разделов.
-![raid0]()
+![raid0](https://github.com/EVolgina/devops-netology12/blob/main/zad7.PNG)
 # 8.Создайте два независимых PV на получившихся md-устройствах.
 ![raid1]()
 # 9.Создайте общую volume-group на этих двух PV.
